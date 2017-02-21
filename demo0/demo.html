@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="main.css">
+	<script language="JavaScript" type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="jquery.isloading.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Color Adjustment Network</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Demo</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+	<section id="about" class="container content-section text-center">
+        <div class="row">
+            <h2 lang="en">Color Adjustment Network</h2>
+            <h4 lang="en" style="font-style:italic;">developed by Jongchan Park</h4>
+            <div lang="ko" class="col-md-8 col-md-offset-2 col-xs-12">
+                <p>line 0</p>
+                <p>line 1</p>
+            </div>
+            <div lang="en" class="col-md-8 col-md-offset-2 col-xs-12">
+                <p>line 2</p>
+                <p>line 3</p>
+            </div>
+        </div>
+    </section>
+	<section id="about" class="container content-section text-center">
+		<div class="row">
+			<h2>Demo</h2>
+
+			<!--<img class="largeImg" id="uploadedImage" src="https://img.clipartfox.com/547e74b96892ab7fb2f98c444837f28f_the-white-table-gallery-images-white_1200-630.jpeg" alt="input image">-->
+			<img class="largeImg" id="uploadedImage" src="http://110.76.104.94:5001/upload/001628.jpg" alt="input image">
+			<form action="" method=post enctype=multipart/form-data>
+				<div style="padding-top: 10px;">
+				<input style="display:inline-block;" type=file name=uploadfile>
+				<!-- <input type=submit value=Upload>-->
+				<button id="uploadButton" type="button">Upload</button>
+				</div>
+			</form>
+			<button id="processButton" type="button" >Run!</button>
+		</div>
+	</section>
+	<section id="result" class="container content-section text-center">
+		<img class="largeImg" id="resultImage" src="" alt="result image" style="visibility:hidden;"/>
+	</section>
+	<section id="bottom" class="container content-section text-center">
+	</section>
+</body>
+</html>

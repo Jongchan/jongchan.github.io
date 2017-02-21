@@ -1,0 +1,71 @@
+body{
+	background-color: darkolivegreen;
+}
+
+.largeImg{
+	max-width:400px;
+	max-height:250px;
+}
+.content-section {
+	padding-top: 250px;
+}
+
+.nav a {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+.nav .container{
+  padding-top:15px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav {
+	position:fixed;
+	width:100%;
+	background-color:#38471f;
+	height:50px;
+}
+
+.jumbotron {
+  background-image:url('http://goo.gl/04j7Nn');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
