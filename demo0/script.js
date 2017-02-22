@@ -13,7 +13,7 @@ String.prototype.format = function () {
         });
 };
 $(document).ready(function(){
-	var targetURL = "http://110.76.104.94:5001"
+	var targetURL = "https://110.76.104.94:5001"
 	var resp = null;
 	$("#processButton").click(function(){
 		var uploadURL = '{0}/processImage'.format(targetURL);
