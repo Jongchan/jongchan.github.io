@@ -24,7 +24,7 @@ $(document).ready(function(){
 			contentType:"application/json",
             data: JSON.stringify(json_data),
             type: 'POST',
-			timeout: 10000,
+			timeout: 20000,
 			beforeSend: function(){
 				$("#processButton").isLoading();
 			},
